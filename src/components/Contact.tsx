@@ -51,9 +51,6 @@ export default function Contact() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <motion.div
-            initial={{ x: -50, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
             className="space-y-8"
           >
             <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
@@ -85,9 +82,6 @@ export default function Contact() {
 
           <form ref={form} onSubmit={sendEmail}>
             <motion.form
-              initial={{ x: 50, opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1 }}
-              viewport={{ once: true }}
               className="space-y-6"
             >
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
