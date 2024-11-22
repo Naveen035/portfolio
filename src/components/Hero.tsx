@@ -49,13 +49,14 @@ export default function Hero() {
           transition={{ delay: 0.5 }}
           className="flex gap-4 justify-center"
         >
-          <motion.button
+          <motion.a
+          href='#projects'
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-8 py-3 bg-indigo-600 text-white rounded-full font-medium hover:bg-indigo-700 transition-colors"
           >
             View Projects
-          </motion.button>
+          </motion.a>
         <a href={Resume} target='_blank' download="Resume.pdf">
         <motion.button
             whileHover={{ scale: 1.05 }}
