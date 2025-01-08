@@ -20,14 +20,14 @@ const skills = [
     items: ["Scikit-learn", "TensorFlow", "Statistical Modeling", "Feature Engineering"]
   },
   {
-    category: "Big Data",
-    icon: Database,
-    items: ["Spark", "Hadoop"]
+    category: "Gen AI",
+    icon: AI,
+    items: ["LLMs", "MLops","Azure Ai","NLP"]
   },
   {
     category: "Programming",
     icon: Code2,
-    items: ["Python", "SQL", "JavaScript"]
+    items: ["Python", "SQL"]
   },
   {
     category: "Version Control",
