@@ -21,7 +21,7 @@ const skills = [
   },
   {
     category: "Gen AI",
-    icon: AI,
+    icon: Database,
     items: ["LLMs", "MLops","Azure Ai","NLP"]
   },
   {
