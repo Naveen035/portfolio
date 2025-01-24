@@ -47,11 +47,11 @@ const projects = [
     demo: "https://example.com"
   },
   {
-    title: "Heart Problem Data Analysis",
-    description: "Developed a heart disease analysis tool using statistical methods and data visualization techniques. Conducted EDA to uncover key patterns and trends, enabling data-driven insights for heart condition prediction.",
+    title: "Corona Layoff Analysis",
+    description: "Analyzed layoff data during the COVID-19 pandemic across industries and regions. The project involved data cleaning and exploratory data analysis (EDA) to uncover trends, patterns, and the economic impact on employment. Key insights were derived from company, location, and industry-specific metrics.",
     image: `${heart}`,
-    tags: ["Python", "Pandas", "Seaborn","Matplotlib","Streamlit","Numpy"],
-    github: "https://github.com/Naveen035/Heart-Problem-Data-Analysis",
+    tags: ["MYSQL"],
+    github: "https://github.com/Naveen035/Corona-Layoff-Analysis",
     demo: "https://example.com"
   }
 ];
